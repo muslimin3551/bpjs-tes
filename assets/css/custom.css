@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Gotham';
-    src: url('/assets/font/Gotham-Font/GothamBook.ttf') format('woff2');
+    src: url("/assets/font/Gotham-Font/GothamBook.ttf") format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -197,7 +197,7 @@ input:focus {
 }
 
 .layanan-card {
-    background-image: url('/assets/img/Frame\ 33444.png');
+    background-image: url("/assets/img/Frame 33444.png");
     border: 0px;
     margin-top: 50px;
     border-radius: 0;
@@ -445,7 +445,7 @@ input:focus {
 /* download section */
 .download-card {
     border: 0;
-    background-image: url('/assets/img/Group\ 33429.png');
+    background-image: url("/assets/img/Group 33429.png");
     border-radius: 32px;
     color: #ffffff;
     background-size: cover;
@@ -460,7 +460,7 @@ input:focus {
 
 /* footer */
 .footer {
-    background-image: url('/assets/img/footer/Footer.png');
+    background-image: url("/assets/img/footer/Footer.png");
     background-size: cover;
     background-position: center;
     padding: 50px;
