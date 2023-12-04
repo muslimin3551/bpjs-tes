@@ -465,7 +465,6 @@ input:focus {
     background-position: center;
     padding: 50px;
     color: #ffffff;
-    height: 500px;
     width: 100%;
 }
 
@@ -571,3 +570,38 @@ input:focus {
 }
 
 /* end */
+
+/* mobile view */
+
+@media only screen and (max-width: 768px) {
+    .download-card {
+        border: 0;
+        background: linear-gradient(273.34deg, #005C99 0%, #0086D9 100%);
+        border-radius: 32px;
+        color: #ffffff;
+        background-size: cover;
+    }
+    .download-img {
+        margin-bottom: 20px;
+    }
+    .list-unstyled.d-flex {
+        flex-direction: column;
+    }
+
+    .social-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .w-50 {
+        width: 100%!important;
+    }
+    .w-100 {
+        width: auto!important;
+    }
+    align-self-start{
+        justify-self: center;
+    }
+    .custom-dropdown-item {
+        max-width: 80%;
+    }
+}
