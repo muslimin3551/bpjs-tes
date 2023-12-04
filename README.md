@@ -1,5 +1,5 @@
 # bpjs-tes
-website ui htm, css, javascript
+website ui html, css, javascript
 
 #support view
 - desktop view
